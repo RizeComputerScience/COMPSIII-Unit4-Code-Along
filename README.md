@@ -12,6 +12,7 @@ This unit we'll be adding classes for `ClothingProduct` and `ElectronicProduct` 
 2. Call the `__init__` method in the child class using either `Product` or `super()`. Set the `name`, `price`, and `sku` properties.
 3. Set the `size` and `color` to the values that are passed into the constructor.
 4. Finally, create a `clothing_info` method that returns information about the object in the form `"[NAME] (SKU: [SKU]) - $[PRICE] - Size: [SIZE], Color: [COLOR]""`
+5. Run the tests! `test_clothing_product`, `test_clothing_product_attributes`, and `test_clothing_info` tests should now be passing!
 
 ## VS Code - main.py has syntax instructions
 6. Import the `ClothingProduct` class into the file. The `Product` and `ShoppingCart` class was imported last week.
@@ -25,11 +26,13 @@ This unit we'll be adding classes for `ClothingProduct` and `ElectronicProduct` 
 11. Call the `__init__` method in the child class using either `Product` or `super()`. Set the `name`, `price`, and `sku` properties.
 12. Set the `warranty_months` to the value that are passed into the constructor. 
 13. Create a method called `electronics_info` that takes the object as an argument. It should return a string in the format `"[NAME] (SKU: [SKU]) - $[PRICE] - Warranty: [WARRANTY_MONTHS] months"`.
-14. Create a method called `under_warranty` that takes the object and `months` as an argument. If the number of months passed in is less than the `warranty_months`, then return `True`. Otherwise, return `False`.
+14. Run the tests! `test_electronics_product`, `test_electronics_product_attributes`, and `test_electronics_info` should now be passing.
+15. Create a method called `under_warranty` that takes the object and `months` as an argument. If the number of months passed in is less than the `warranty_months`, then return `True`. Otherwise, return `False`.
+16. Run the tests! `test_under_warranty` should now be passing.
 
 ## VS Code - main.py has syntax instructions
-14. Import the `ElectronicsProduct` class into the file.
-15. Inside the `main()` function, create an instance of the `ElectronicsProduct` class and `print()` out the object. Show how it also inherited the `__str__` method from the `Product` class.
-16. Call `electronics_info()` to see the additional information about the object.
-17. Call the `under_warranty()` method and print out the resulting boolean.
-18. Finally, add both items the cart using `add_items`. Print out the new cart info.
+17. Import the `ElectronicsProduct` class into the file.
+18. Inside the `main()` function, create an instance of the `ElectronicsProduct` class and `print()` out the object. Show how it also inherited the `__str__` method from the `Product` class.
+19. Call `electronics_info()` to see the additional information about the object.
+20. Call the `under_warranty()` method and print out the resulting boolean.
+21. Finally, add both items the cart using `add_items`. Print out the new cart info.
