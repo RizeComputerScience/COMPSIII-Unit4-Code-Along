@@ -1,4 +1,4 @@
-# COMPS III: Unit 3 Code Along
+# COMPS III: Unit 4 Code Along
 
 ## Overview
 This unit we'll be continuing to build out our e-commerce store by incorporating inheritance into our system. Last unit we created `Product` and `ShoppingCart` classes. However, there are many different types of products that our store could have that require special information. 
