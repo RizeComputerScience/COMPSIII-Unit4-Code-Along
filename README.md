@@ -1,11 +1,11 @@
-# COMPS III: Unit 4 Code Along
+# COMPS III: Unit 5 Code Along
 
 ## Overview
 This unit we'll be continuing to build out our e-commerce store by incorporating inheritance into our system. Last unit we created `Product` and `ShoppingCart` classes. However, there are many different types of products that our store could have that require special information. 
 
 ![Inheritance in E-Commerce Store](./E-Store_W2.png)
 
-This unit we'll be adding classes for `ClothingProduct` and `ElectronicProduct` using inheritance. You can use the code you completed last week, but we have included the completed unit 2 code in `app.py`.
+This unit we'll be adding classes for `ClothingProduct` and `ElectronicProduct` using inheritance. You can use the code you completed last week, but we have included the completed unit 3 and 4 code in `app.py`.
 
 ## VS Code - app.py has syntax instructions
 1. Define a `ClothingProduct` class that is a child of the `Product` class.
